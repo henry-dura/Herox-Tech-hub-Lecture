@@ -372,24 +372,30 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
   }
-  .annual{
+  .annual1,.annual2{
+    background-repeat: no-repeat;
+    background-size: cover;
     width:100%;
     height: auto;
   }
-  
-  .annual-pix{
-    width: 100%;
-    height: auto;
-    filter: grayscale(50%) brightness(100%) contrast(50%) ;
+  .annual1{
+    background-image: url('images/summit-2022.jpeg'); 
   }
+  .annual2{
+    background-image: url('images/summit-2021.jpg');
+  }
+  
+  .annual-bgCover{
+    width:100%;
+    height: 300px;
+    background: rgba(236, 82, 66,0.5);
+  }
+
   .text-top {
-    position: relative;
-    top: -50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
-    color:red;
+    padding-top: 30%;
+    font-size: 1.5rem;
 
   }
 
@@ -519,7 +525,7 @@
       width: 12%;
       height: auto;
     }
-    
+
      /* About desktop page */
   .top-section.aboutpg {
     background-image: url("images/about-desktop.png");
@@ -549,17 +555,19 @@
     padding: 24px 50px;
   }
 
-  .training-pictures {
+  /* .training-pictures {
     flex-direction: row;
     padding: 0 15%;
-    /* margin: 50px; */
-  }
+
+  } */
   /* .training-pictures img{
     width:100%;
     height: auto;
   } */
+  .training-pictures {
+    flex-direction: row;
+  }
 
-  
   footer.aboutpg {
     background: #272a31;
     color: #d3d3d3;
