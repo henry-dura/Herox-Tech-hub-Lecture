@@ -92,9 +92,14 @@ const gridContainer = document.querySelector('.lecturer-grid');
 const moreBtn = document.querySelector('.more');
 window.addEventListener('resize',()=> location.reload());
 
+let behind = 'images/behind-pix-desktop.png';
 for(let i=0;i<lecturers.length;i++){
     const div = document.createElement('div');
     div.classList.add('lecturer');
+    if(window.innerWidth <= 768){
+        behind = 'images/behind-pix-bg.png'
+
+    }
 // add another class while on mobile.
     if(i > 1 && window.innerWidth <= 768 ){
         div.classList.add('mobile-more') ;    
@@ -102,7 +107,7 @@ for(let i=0;i<lecturers.length;i++){
     
     div.innerHTML = `
     <div class="lecturer-pix">
-                    <img src="images/behind-pix-bg.png" alt="" class="behind">
+                    <img src="${behind}" alt="" class="behind">
                     <img src="${lecturers[i].picture}" alt="" class="front">
                 </div>
                <div class="specialization">
