@@ -37,6 +37,11 @@ const programs = [
     heading: 'Blockchain Development',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quia ut, eveniet possimus nam facilis quae dolores aut eum inventore nemo minus assumenda!',
   },
+  {
+    image: 'images/web-3.0.webp',
+    heading: 'Web 3.0',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quia ut, eveniet possimus nam facilis quae dolores aut eum inventore nemo minus assumenda!',
+  },
 
 ];
 

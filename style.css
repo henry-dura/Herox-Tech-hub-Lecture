@@ -337,6 +337,10 @@ footer {
   align-items: center;
 }
 
+.logo-p {
+  text-align: center;
+}
+
 .logo-design {
   border: 1px solid #d3d3d3;
   display: flex;

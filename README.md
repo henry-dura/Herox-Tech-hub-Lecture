@@ -95,6 +95,17 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+## Project Description <a name="live-demo"></a>
+
+
+
+- [Loom Video](https://www.loom.com/share/d5716c0ccfc7437e815023876667cdad)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -172,27 +183,8 @@ To run tests, run the following command in your `git bash` or CLI:
 - `npx stylelint "**/*.{css,scss}" `: for the css codebase and use of best practices. you can add.
 - `npx eslint . `: for the JavaScript codebase and use of best practices.
 
-<!--
-Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -244,7 +236,7 @@ If you like this project, kindly give a ⭐️.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-Original design idea by Cindy Shin in Behance. Thank you very much Cindy.
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). Thank you very much Cindy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
