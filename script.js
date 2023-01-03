@@ -1,3 +1,15 @@
+// mobile menu popup
+const popup = document.querySelector('.popup');
+const list = document.querySelector('.second-header .list');
+const hamburger = document.querySelector('.hamburger');
+
+function menuPopup(){
+    popup.contains(list) ? popup.removeChild(list):popup.appendChild(list);
+    popup.classList.toggle('menu');
+};
+hamburger.addEventListener('click',menuPopup);
+popup.addEventListener('click',menuPopup);
+
 //programs object list
 const programs=[
     {
