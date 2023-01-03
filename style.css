@@ -558,16 +558,6 @@ footer {
     padding: 24px 50px;
   }
 
-  /* .training-pictures {
-    flex-direction: row;
-    padding: 0 15%;
-
-  } */
-
-  /* .training-pictures img{
-    width:100%;
-    height: auto;
-  } */
   .training-pictures {
     flex-direction: row;
   }
