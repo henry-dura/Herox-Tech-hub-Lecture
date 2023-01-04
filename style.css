@@ -296,8 +296,10 @@ footer {
 .link2 {
   color: #272a31;
 }
+.selected{
+  color: red !important;
 
-.about,
+}
 .register {
   color: #ec5242;
 }

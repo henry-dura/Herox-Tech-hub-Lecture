@@ -91,7 +91,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Live Demo Link](https://henry-dura.github.io/Tech-hub-/)
+- [Live Demo Link](https://henry-dura.github.io/Herox-Tech-hub-Lecture/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +135,7 @@ Example command:
 Clone this repository to your desired folder:
 ```sh
     cd your-desired-folder
-    git clone https://github.com/henry-dura/Tech-hub-.git
+    git clone https://github.com/henry-dura/Herox-Tech-hub-Lecture.git
 ```
 <!--
 Example commands:
@@ -151,7 +151,7 @@ Example commands:
 Install this project with:
 ```sh
     cd your-desired-folder
-    git clone https://github.com/henry-dura/Tech-hub-.git
+    git clone https://github.com/henry-dura/Herox-Tech-hub-Lecture.git
 ```
 
 
@@ -182,6 +182,7 @@ To run tests, run the following command in your `git bash` or CLI:
 - `npx hint .` : for the html codebase and use of best practices.
 - `npx stylelint "**/*.{css,scss}" `: for the css codebase and use of best practices. you can add.
 - `npx eslint . `: for the JavaScript codebase and use of best practices.
+
 
 
 
@@ -218,7 +219,7 @@ To run tests, run the following command in your `git bash` or CLI:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/henry-dura/Tech-hub-/issues).
+Feel free to check the [issues page](https://github.com/henry-dura/Herox-Tech-hub-Lecture/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
